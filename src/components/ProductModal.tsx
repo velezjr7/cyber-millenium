@@ -20,7 +20,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
   };
 
   // Configuración de WhatsApp
-  const mainNumber = "523467006636"; // Número principal
+  const mainNumber = "523467006636"; // Número principal de whatsapp
   const message = encodeURIComponent(
     `Hola, estoy interesado en obtener más información sobre el producto: ${product.nombre}`
   );
