@@ -20,7 +20,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
   };
 
   // Configuración de WhatsApp
-  const mainNumber = "523461006459"; // Número principal
+  const mainNumber = "523467006636"; // Número principal
   const message = encodeURIComponent(
     `Hola, estoy interesado en obtener más información sobre el producto: ${product.nombre}`
   );
@@ -234,7 +234,7 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
               </button>
             </div>
             <p className="text-xs text-center text-slate-400">
-              O contáctanos a los números alternativos: 346 700 6636 / 346 112
+              O contáctanos a los números alternativos: 346 100 6459 / 346 112
               9280
             </p>
           </div>
