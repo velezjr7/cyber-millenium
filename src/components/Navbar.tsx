@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               />
             </div>
             <span className="text-white text-xl font-bold tracking-wider">
-              Compu MILLENIUM
+              COMPU MILLENIUM
             </span>
           </div>
 
