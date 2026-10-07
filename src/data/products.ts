@@ -13,7 +13,7 @@ const localImages = (import.meta as any).glob(
   {
     eager: true,
     import: "default",
-  }
+  },
 );
 
 /*
@@ -25,7 +25,7 @@ const localImages = (import.meta as any).glob(
 const getLocalImg = (
   folder: string,
   filename: string,
-  fallback?: string
+  fallback?: string,
 ): string => {
   // Construimos la ruta relativa tal como la espera Vite
   const path = `../assets/productos/${folder}/${filename}`;
@@ -129,7 +129,7 @@ export const productos: Product[] = [
       "Botella de tinta original Epson T664120 color amarilla. Ideal para impresiones de alto rendimiento y calidad superior. Diseñada para proteger tu impresora y garantizar documentos nítidos.",
     imagenes: [getLocalImg("tinta_664", "amarilla.webp")],
     specs: [
-      "Color: Amarrilla",
+      "Color: Amarilla",
       "Contenido: 70ml",
       "Rendimiento: Aprox. 4000 páginas",
       "Tipo: Tinta Dye",
@@ -264,7 +264,7 @@ export const productos: Product[] = [
   },
   {
     id: 7,
-    nombre: "Tinta Epson 544 Amariila",
+    nombre: "Tinta Epson 544 Amarilla",
     categoria: "Consumibles",
     precio: 240,
     descripcion:

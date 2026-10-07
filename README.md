@@ -1,13 +1,13 @@
-# Cyber Millenium - Catálogo Web
+# Compu Millenium - Catálogo Web
 
-Aplicación web informativa y catálogo de productos para el negocio de computación "Cyber Millenium". Desarrollada con tecnologías modernas para garantizar velocidad, diseño responsivo y facilidad de mantenimiento.
+Aplicación web informativa y catálogo de productos para el negocio de computación "Compu Millenium". Desarrollada con tecnologías modernas para garantizar velocidad, diseño responsivo y facilidad de mantenimiento.
 
 ## 🚀 Tecnologías Utilizadas
 
 - **React 18+**: Biblioteca de interfaz de usuario.
 - **Vite**: Empaquetador y entorno de desarrollo ultra rápido.
 - **TypeScript**: Tipado estático para mayor robustez en el código.
-- **Tailwind CSS**: Framework de utilidades para el diseño y estilos (paleta de colores personalizada `cyber`).
+- **Tailwind CSS**: Framework de utilidades para el diseño y estilos (paleta de colores personalizada `Compu`).
 - **Heroicons**: Iconografía SVG ligera.
 
 ## 📋 Requisitos Previos
@@ -20,7 +20,7 @@ Asegúrate de tener instalado **Node.js** (versión 16 o superior) en tu computa
 
     ```bash
     git clone <tu-repositorio-url>
-    cd cyber-millenium
+    cd Compu-millenium
     ```
 
 2.  **Instalar dependencias**:
@@ -77,7 +77,7 @@ Para usar tus propias fotos:
 
 ## 🎨 Personalización
 
-- **Colores**: La paleta de colores azul ("Cyber") está definida en `index.html` dentro de la configuración de Tailwind (`tailwind.config`).
+- **Colores**: La paleta de colores azul ("Compu") está definida en `index.html` dentro de la configuración de Tailwind (`tailwind.config`).
 - **Contacto**: La información de dirección, teléfonos y correos se encuentra en `src/components/Contact.tsx` y en `src/components/ProductModal.tsx` (para el botón de WhatsApp).
 
 ## 🚢 Construcción para Producción
@@ -100,4 +100,4 @@ Esto creará una carpeta `dist/` con todo el código minificado listo para publi
 
 ---
 
-Desarrollado para **Cyber Millenium** - Nochistlán, Zac.
+Desarrollado para **Compu Millenium** - Nochistlán, Zac.

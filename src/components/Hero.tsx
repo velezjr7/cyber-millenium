@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
               Tecnología para el <span className="text-cyber-600">Futuro</span>
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              En Cyber Millenium ofrecemos las mejores soluciones en
+              En Compu Millenium ofrecemos las mejores soluciones en
               computación, desde equipos de alto rendimiento hasta el soporte
               que necesitas. Tu aliado tecnológico en Nochistlán.
             </p>

@@ -40,11 +40,11 @@ const Contact: React.FC = () => {
                 Visítanos
               </h3>
               <p className="text-slate-600 mt-1">
-                Calle Guerrero #4
+                Calle Peñol #18A
                 <br />
                 Nochistlán, Zacatecas
                 <br />
-                <a href="https://maps.app.goo.gl/keEPSg1ExRp4sEL58">
+                <a href="https://maps.app.goo.gl/A1su3QzBvbdsxuax6">
                   📍Ubícanos
                 </a>
               </p>
@@ -154,12 +154,12 @@ const Contact: React.FC = () => {
         <div className="bg-cyber-900 rounded-xl overflow-hidden shadow-lg relative min-h-[300px] flex items-center justify-center group">
           <img
             src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1000"
-            alt="Cyber Millenium Tech Concept"
+            alt="Compu Millenium Tech Concept"
             className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-50 transition-opacity duration-500"
           />
           <div className="relative z-10 text-center px-6">
             <h3 className="text-2xl font-bold text-white mb-2">
-              Cyber Millenium
+              Compu Millenium
             </h3>
             <p className="text-cyber-200">
               Tu punto de tecnología de confianza.

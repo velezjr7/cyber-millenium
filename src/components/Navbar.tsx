@@ -27,12 +27,12 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             <div className="bg-white p-1 rounded-full flex items-center justify-center overflow-hidden h-10 w-10">
               <img
                 src={logo}
-                alt="Logo Cyber Millenium"
+                alt="Logo Compu Millenium"
                 className="h-full w-full object-contain"
               />
             </div>
             <span className="text-white text-xl font-bold tracking-wider">
-              CYBER MILLENIUM
+              Compu MILLENIUM
             </span>
           </div>
 

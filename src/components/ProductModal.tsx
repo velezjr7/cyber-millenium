@@ -15,14 +15,14 @@ const ProductModal: React.FC<ProductModalProps> = ({ product, onClose }) => {
 
   const prevImage = () => {
     setCurrentImageIndex(
-      (prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length
+      (prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length,
     );
   };
 
   // Configuración de WhatsApp
   const mainNumber = "523467006636"; // Número principal de whatsapp
   const message = encodeURIComponent(
-    `Hola, estoy interesado en obtener más información sobre el producto: ${product.nombre}`
+    `Hola, estoy interesado en obtener más información sobre el producto: ${product.nombre}`,
   );
   const whatsappUrl = `https://wa.me/${mainNumber}?text=${message}`;
 

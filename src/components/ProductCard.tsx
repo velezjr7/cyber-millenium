@@ -20,7 +20,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
   const prevImage = (e: React.MouseEvent) => {
     e.stopPropagation();
     setCurrentImageIndex(
-      (prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length
+      (prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length,
     );
   };
 
